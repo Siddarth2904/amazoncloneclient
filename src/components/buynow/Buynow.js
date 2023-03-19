@@ -50,7 +50,7 @@ const Buynow = () => {
                                         <div className='item_details'>
                                             <h3>{e.title.longTitle} </h3>
                                             <h3>{e.title.shortTitle}</h3>
-                                            <h3 className='differentprice'>₹4049.00</h3>
+                                            <h3 className='differentprice'>₹{e.price.cost}.00</h3>
                                             <p className='unusuall'>Usually dispatched in 8 days.</p>
                                             <p>Eligible for FREE Shipping</p>
                                             <img src='https://m.media-amazon.com/images/G/31/marketing/fba/fba-badge_18px-2x._CB485942108_.png" alt="logo' alt='' />

@@ -116,7 +116,7 @@ const NavBar = () => {
                         <MenuIcon style={{ color: '#fff' }} />
                     </IconButton>
                     <Drawer open={dropen} onClose={handledrclose}>
-                        <Rightheader logclose={handledrclose} logoutuser={logoutuser}/>
+                        <Rightheader logclose={handledrclose} logoutuser={logoutuser} />
                     </Drawer>
                     <div className='navlogo'>
                         <NavLink to='/'> <img src='./amazon_PNG25.png' alt='' /></NavLink>
