@@ -1,7 +1,7 @@
 import { Divider } from '@mui/material';
 import React from 'react'
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 // import { products } from './Productdata';
 import { NavLink } from 'react-router-dom';
 import "./Slide.css"
